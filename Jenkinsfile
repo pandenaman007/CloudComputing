@@ -14,7 +14,7 @@ pipeline {
 		}
 		stage('Deply'){
 			steps{
-				sh 'Echo its done'
+				sh 'echo its done'
 			}
 		}
 		
